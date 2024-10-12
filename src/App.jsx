@@ -1,15 +1,17 @@
 // import { useState } from 'react'
-import Navbar from './components/navbar'
-import SignUp from './pages/signup'
+
+import MainLayout from './layout/mainlayout'
 import './styled/reset.css'
+import '../src/index.css'
+import SettingsButton from './components/settings'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className='min-w-full min-h-screen bg-black'>
-      {/* <Navbar />  */}
-      <SignUp/> 
+    <div className='min-w-full min-h-screen bg-black relative'>
+        <MainLayout/>
+        
     </div>
   )
 }

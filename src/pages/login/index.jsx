@@ -20,7 +20,7 @@ export default function Login() {
                         <h3>Beni Hatırla</h3>
                     </div>
                     <div className="flex mt-5 gap-5 items-center justify-between">
-                        <a href="/login" className="bg-white/20 px-4 py-1 rounded-sm">Giriş Yap</a>
+                        <a href="/" className="bg-white/20 px-4 py-1 rounded-sm">Giriş Yap</a>
                         <span>Hala sitemize kayıt olmadın mı ?<a href="#" className="text-blue-800 ml-4 rounded-sm">Kayıt Ol</a> </span>
                     </div>
                 </form>
