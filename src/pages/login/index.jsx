@@ -1,8 +1,12 @@
+import girisVideo from "../../assets/giris-video.mp4";
+
 export default function Login() {
     return (
         <div className="flex w-full h-full min-w-full min-h-screen ">
             <div className="relative flex-1 bg-red-600">
-                <img src="https://www.learnhist.com.tr/resimler/Ataturk/ataturk-slider.jpg" alt="" className="absolute inset-0 object-cover h-full" />
+                <video className="max-h-screen h-full w-full object-fill bg-no-repeat" autoPlay muted loop>
+                    <source src={girisVideo} type="video/mp4" />
+                </video>
             </div>
             <div className="flex items-center justify-center flex-1 text-white ">
                 <form action="" className="flex gap-4 flex-col  justify-center relative w-3/4 h-3/5 px-4 py-2 rounded-lg">
