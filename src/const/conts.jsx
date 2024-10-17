@@ -11,6 +11,14 @@ export const NavbarList = [
         title: "Galeri",
         link: "/galeri"
     },
+    {
+        title: "Notlar",
+        link: "/notlar"
+    },
+    {
+        title: "Favoriler",
+        link: "/favori"
+    },
     //  Daha devamı gelecek
 ]
 
